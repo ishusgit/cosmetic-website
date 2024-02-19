@@ -1,0 +1,1416 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,600;8..144,700&family=Roboto+Slab:wght@400;500;800&family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,600;8..144,700&family=Roboto+Slab:wght@400;500;800&family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    
+   min-height:370vh;
+   width:100%;
+}
+section{
+    position:relative;
+    margin:0;
+    width:100%;
+    height:490px;
+    background:linear-gradient(rgb(222, 199, 248),rgb(252, 189, 200),rgb(222,199,248));
+}
+section .img{
+    position:absolute;
+    background-image:url(images4/eye\ mainwallpaper.jpeg);
+    background-repeat:no-repeat;
+    background-size:70%/60%;
+    filter:blur(2.6px);
+    width:100%;
+    height:100%;
+}
+section .img1{
+    position:absolute;
+    background-image:url(images4/wall\ eye2.jpeg);
+    background-repeat:no-repeat;
+    background-size:35%/80%;
+    margin-left:850px;
+    width:100%;
+    height:100%;
+    filter:blur(2.6px);
+}
+section .nav-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   /** background:linear-gradient(to right,rgb(34, 234, 248),rgb(167, 32, 245),rgb(247, 4, 145));**/
+}
+section .nav-links ul{
+    display:flex;
+    margin-top:28px;
+    z-index:10000;
+}
+section .nav-links ul li{
+    list-style:none;
+    padding:0 18px;
+    margin-bottom:10px;
+}
+section .nav-links ul li a{
+    color:rgb(255, 255, 255);
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    text-decoration:none;
+    display:block;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    font-weight:bold;
+    transition:.3s ease-in-out;
+}
+section .nav-links ul li a:hover{
+    color:rgb(40, 1, 77);
+    border-bottom:2px solid rgb(253, 24, 62);
+    transition-delay:.5s;
+}
+section .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    /**justify-content:center;
+    align-items:center;**/
+    z-index:20000;
+    width:460px;
+    height:350px;
+    margin-top:35px;
+    margin-left:450px;
+   /** border:1px solid red;**/
+    padding-left:20px;
+    padding-right:20px;
+}
+section .content h1{
+   font-weight:bold;
+   font-family:'poppins',sans-serif;
+   letter-spacing:5px;
+   font-size:36px;
+   color:white;
+   text-align:center;
+   text-transform:capitalize;
+   margin-top:20px;
+}
+section .content p{
+    font-weight:700;
+    font-size:16px;
+    font-family:'poppins',sans-serif;
+    color:white;
+    margin-top:25px;
+    text-align:justify;
+}
+section .content p span{
+    font-size:18px;
+    font-weight:900;
+    text-transform:uppercase;
+    color:rgb(144, 4, 187);
+}
+section .content p b{
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:rgb(255, 3, 129);
+}
+section .content button{
+    display:inline-block;
+    font-size:16px;
+    font-weight:900;
+    font-family:'poppins',sans-serif;
+    color:rgb(46, 46, 46);
+   /** background:rgb(255, 122, 128);**/
+   background:rgb(255, 175, 187);
+    text-transform:capitalize;
+    border:none;
+    letter-spacing:1.1px;
+    margin-left:140px;
+    text-align:center;
+    margin-right:20px;
+    border-radius:10px;
+    margin-top:10px;
+    padding:5px 3px;
+    width:130px;
+}
+section .eyecare{
+    position:relative;
+    width:860px;
+    height:245px;
+   /** border:1px solid red;
+    background:violet;**/
+    margin-left:245px;
+    margin-right:auto;
+    margin-top:-50px;
+    display:flex;
+}
+section .eyecare .eyeremover{
+    position:relative;
+    width:250px;
+    height:242px;
+    display:flex;
+    flex-direction:column;
+   /** background:rgb(199, 199, 1);**/
+   background:rgb(89, 24, 141);
+
+    margin-left:35px;
+    /**border:1px solid green;**/
+    margin-top:20px;
+    border-top-left-radius:200px;
+    border-top-right-radius:200px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    /**border:6px solid rgb(247, 156, 255);**/
+}
+section .eyecare .eyeremover img{
+    position:absolute;
+    border-radius:40%;
+    width:95px;
+    height:95px;
+    margin-left:69px;
+    transform:translateY(-40px);
+    border:2px solid white;
+}
+section .eyecare .eyeremover h1{
+   font-size:18px;
+   font-weight:700;
+   font-family:'poppins',sans-serif;
+   color:white;
+   text-align:center;
+   text-transform:uppercase;
+   margin-top:75px;
+}
+section .eyecare .eyeremover p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:justify;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:15px;
+}
+section .eyecare .lashoil{
+    position:relative;
+    width:250px;
+    height:242px;
+    display:flex;
+    flex-direction:column;
+    margin-left:50px;
+   /** border:1px solid green;**/
+    margin-top:20px;
+    border-top-left-radius:200px;
+    border-top-right-radius:200px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+   /** background:rgb(42, 187, 255);**/
+   background:rgb(252, 76, 7);
+    border:none;
+   /** border:6px solid rgb(144, 201, 248);**/
+}
+section .eyecare .lashoil img{
+    position:absolute;
+    border-radius:40%;
+    width:95px;
+    height:95px;
+    margin-left:69px;
+    transform:translateY(-40px);
+    border:2px solid white;
+}
+section .eyecare .lashoil h1{
+   font-size:18px;
+   font-weight:700;
+   font-family:'poppins',sans-serif;
+   color:white;
+   text-align:center;
+   text-transform:uppercase;
+   margin-top:75px;
+}
+section .eyecare .lashoil p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:justify;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:15px;
+}
+section .eyecare .eyegel{
+    position:relative;
+    width:250px;
+    height:242px;
+    display:flex;
+    flex-direction:column;
+    margin-left:50px;
+   /** border:6px solid rgb(177, 91, 247);**/
+    margin-top:20px;
+    margin-right:20px;
+    border-top-left-radius:200px;
+    border-top-right-radius:200px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+   /** background:rgb(255, 86, 8);**/
+   background:rgb(252, 173, 3);
+}
+section .eyecare .eyegel img{
+    position:absolute;
+    margin-left:69px;
+    transform:translateY(-40px);
+    border-radius:40%;
+    width:95px;
+    height:95px;
+    border:2px solid rgb(255, 255, 255);
+}
+section .eyecare .eyegel h1{
+   font-size:18px;
+   font-weight:700;
+   font-family:'poppins',sans-serif;
+   color:white;
+   text-align:center;
+   text-transform:uppercase;
+   margin-top:75px;
+}
+section .eyecare .eyegel p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:justify;
+    margin-left:15px;
+    margin-top:15px;
+    margin-right:15px;
+}
+                /**eyebrows content styling**/
+.eyebrows{
+    position:relative;
+    margin-top:250px;
+    width:1100px;
+    height:300px;
+    border-radius:17px;
+    margin-left:auto;
+    margin-right:auto;
+   /** border:1px solid red;**/
+    display:flex;
+    background:rgb(228, 223, 189);
+}  
+.eyebrows .main{
+    position:relative;
+    width:350px;
+    height:340px;
+    margin-left:30px;
+    display:flex;
+    flex-direction:column;
+    /**border:1px solid blue;**/
+    transform:translateY(-22px);
+    border-radius:20px;
+    background:pink;
+}  
+.eyebrows .main h1{
+    font-size:18px;
+    text-align:center;
+    margin-top:8px;
+    font-weight:800;
+    font-family:'poppins',sans-serif;
+    text-transform:uppercase;
+    color:rgb(255, 55, 88);
+} 
+.eyebrows .main img{
+   border-radius:20px;
+}
+.eyebrows .shaper{
+    position:relative;
+    width:220px;
+    height:230px;
+    margin-left:30px;
+    display:flex;
+    flex-direction:column;
+   /** border:1px solid green;**/
+    margin-top:35px;
+    margin-bottom:15px;
+    border-radius:10px;
+    overflow:hidden;
+    background:rgb(114, 13, 13);
+}
+.eyebrows .shaper::before{
+    content:'';
+    position:absolute;
+    width:65px;
+    height:65px;
+    background:rgb(83, 16, 27);
+    top:0px;
+    right:-25px;
+    border-radius:50%;
+    transform:translateY(-15px);   
+} 
+.eyebrows .shaper::after{
+    content:'';
+    position:absolute;
+    width:45px;
+    height:45px;
+    background:rgb(83, 16, 27);
+    bottom:0px;
+    left:-25px;
+    border-radius:50%;
+    transform:translateY(15px);   
+} 
+.eyebrows .shaper img{
+   text-align:center;
+   margin-top:15px;
+}
+.eyebrows .shaper h1{
+    font-size:16px;
+    font-weight:800;
+    font-family:'poppins',sans-serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    margin-top:10px;
+    text-align:center;
+}
+.eyebrows .spooler{
+    position:relative;
+    width:220px;
+    height:230px;
+    margin-left:30px;
+    margin-bottom:15px;
+    display:flex;
+    flex-direction:column;
+border-radius:10px;
+   /** border:1px solid green;**/
+    margin-top:35px;
+    margin-bottom:15px;
+    overflow:hidden;
+    background:rgb(30, 226, 233);
+} 
+.eyebrows .spooler::before{
+    content:'';
+    position:absolute;
+    width:65px;
+    height:65px;
+    background:rgb(3, 197, 187);
+    top:0px;
+    right:-25px;
+    border-radius:50%;
+    transform:translateY(-15px);   
+} 
+.eyebrows .spooler::after{
+    content:'';
+    position:absolute;
+    width:45px;
+    height:45px;
+    background:rgb(3, 197, 187);
+    bottom:0px;
+    left:-25px;
+    border-radius:50%;
+    transform:translateY(15px);   
+} 
+.eyebrows .spooler img{
+    text-align:center;
+    margin-left:30px;
+    margin-top:15px;
+}
+.eyebrows .spooler h1{
+    font-size:16px;
+    font-weight:800;
+    font-family:'poppins',sans-serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    margin-top:10px;
+}          
+.eyebrows .pencil{
+    position:relative;
+    width:220px;
+    height:230px;
+    margin-left:30px;
+    display:flex;
+    flex-direction:column;
+   /** border:1px solid green;**/
+    margin-top:35px;
+    margin-bottom:15px;
+    margin-right:30px;
+    overflow:hidden;
+    background:rgb(56, 56, 56);
+    border-radius:10px;
+} 
+.eyebrows .pencil::before{
+    content:'';
+    position:absolute;
+    width:65px;
+    height:65px;
+    background:rgb(29, 29, 29);
+    top:0px;
+    right:-25px;
+    border-radius:50%;
+    transform:translateY(-15px);   
+} 
+.eyebrows .pencil::after{
+    content:'';
+    position:absolute;
+    width:45px;
+    height:45px;
+    background:rgb(29, 29, 29);
+    bottom:0px;
+    left:-25px;
+    border-radius:50%;
+    transform:translateY(15px);   
+} 
+.eyebrows .pencil img{
+    text-align:center;
+    margin-left:30px;
+    margin-top:15px;
+}
+.eyebrows .pencil h1{
+    font-size:16px;
+    font-weight:800;
+    text-align:center;
+    font-family:'poppins',sans-serif;
+    text-transform:capitalize;
+    color:rgb(255, 255, 255);
+    margin-top:10px;
+}                    
+            /**eyelashes content styling**/
+.eyelashes{
+    position:relative;
+    margin-top:70px;
+    width:940px;
+    height:370px;
+   /** border:1px solid red;**/
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+}
+.eyelashes .normal{
+    position:relative;
+    width:280px;
+    height:240px;
+    border:1px solid green;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    margin-top:65px;
+    margin-left:40px;
+} 
+.eyelashes .normal img{
+    margin-left:50px;
+    margin-top:20px;
+}
+.eyelashes .normal h1{
+   font-size:16px;
+   font-weight:800;
+   font-family:'poppins',sans-serif;
+   color:pink;
+   text-transform:uppercase;
+   margin-top:10px;
+   text-align:center;
+}
+.eyelashes .normal p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:pink;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    color:pink;
+    text-align:justify;
+    margin-bottom:20px;
+ }
+.eyelashes .curler{
+    position:relative;
+    width:200px;
+    height:328px;
+    border:1px solid green;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    margin-left:50px;
+}
+.eyelashes .curler img{
+    margin-left:40px;
+    margin-top:20px;
+}
+.eyelashes .curler h1{
+   font-size:16px;
+   font-weight:800;
+   font-family:'poppins',sans-serif;
+   color:pink;
+   text-transform:uppercase;
+   margin-top:15px;
+   text-align:center;
+}
+.eyelashes .curler p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:pink;
+    margin-top:13px;
+    margin-left:20px;
+    margin-right:20px;
+    color:pink;
+    margin-bottom:20px;
+    text-align:justify;
+} 
+.eyelashes .glitters{
+    position:relative;
+    width:280px;
+    height:240px;
+    border:1px solid green;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    margin-top:65px;
+    margin-left:45px;
+} 
+.eyelashes .glitters img{
+    margin-left:60px;
+    margin-top:20px;
+}
+.eyelashes .glitters h1{
+   font-size:16px;
+   font-weight:800;
+   font-family:'poppins',sans-serif;
+   color:pink;
+   text-transform:uppercase;
+   margin-top:10px;
+   text-align:center;
+}
+.eyelashes .glitters p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:pink;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    color:pink;
+    margin-bottom:20px;
+    text-align:justify;
+}
+                  /**mascara content styling**/
+.mascara{
+    position:relative;
+    margin-top:25px;
+    width:1100px;
+    height:380px;
+    margin-left:auto;
+    margin-right:auto;
+  /**  border:1px solid red;**/
+    display:flex;
+} 
+.mascara .main{
+    position:relative;
+    width:220px;
+    height:365px;
+    /**border:1px solid green;**/
+    background:linear-gradient(#faa6ff,#e90000);
+    margin-left:10px;
+    margin-top:20px;
+    border-top-right-radius:500px;
+    border-top-left-radius:500px;
+    border-bottom-right-radius:500px;
+    border-bottom-left-radius:500px;
+} 
+.mascara .main img{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:40px;
+}
+.mascara .sub{
+    position:relative;
+    width:770px;
+    height:330px;
+   /** border:1px solid green;**/
+    margin-left:60px;
+    display:flex;
+    margin-top:40px;
+}  
+.mascara .sub .green{
+    position:relative;
+    width:230px;
+    height:300px;
+   /** border:1px solid blue;**/
+   background:rgb(1, 150, 117);
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-left:20px;
+    margin-bottom:30px;
+    border-radius:10px;
+}
+.mascara .sub .green img{
+     margin-left:125px;
+     margin-top:5px;
+     margin-bottom:0px;
+}
+.mascara .sub .green .content{
+   position:relative;
+   margin-top:3px;
+   width:229px;
+   height:100%;
+   border-top-left-radius:60px;
+   border:none;
+   display:flex;
+   flex-direction:column;
+   margin-left:0px; 
+   background:linear-gradient(#17ffc6,#17ffc7);
+}
+.mascara .sub .green .content h1{
+    font-size:16px;
+    font-weight:800;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    text-transform:uppercase;
+    margin-top:10px;
+}
+.mascara .sub .green .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-align:justify;
+    margin-left:10px;
+    margin-top:10px;
+    margin-right:10px;
+}
+/**.mascara .sub .green .content button{
+    display:inline-block;
+    font-size:16px;
+    font-weight:900;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+   /** background:rgb(255, 122, 128);
+   background:rgb(10, 143, 39);
+    text-transform:capitalize;
+    border:none;
+    letter-spacing:0px;
+    margin-left:30px;
+    text-align:center;
+    margin-right:20px;
+    border-radius:10px;
+    margin-top:10px;
+    padding:5px 3px;
+    width:90px;
+}**/
+.mascara .sub .red{
+    position:relative;
+    width:230px;
+    height:300px;
+    /**border:1px solid blue;**/
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+    margin-top:10px;
+    margin-left:50px;
+    margin-bottom:30px;
+    background:rgb(201, 29, 29);
+} 
+.mascara .sub .red img{
+    margin-left:60px;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+.mascara .sub .red .content{
+  position:relative;
+  margin-top:3px;
+  width:229px;
+  height:100%;
+  border-top-left-radius:60px;
+  border-top-right-radius:60px;
+  display:flex;
+  border:none;
+  flex-direction:column;
+  margin-left:0px; 
+  background:rgb(252, 53, 53);
+}
+.mascara .sub .red .content h1{
+   font-size:16px;
+   font-weight:800;
+   font-family:'poppins',sans-serif;
+   color:rgb(255, 255, 255);
+   text-align:center;
+   text-transform:uppercase;
+   margin-top:10px;
+}
+.mascara .sub .red .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-align:justify;
+    margin-left:10px;
+    margin-top:10px;
+    margin-right:10px;
+}
+.mascara .sub .blue{
+    position:relative;
+    width:230px;
+    height:300px;
+   /** border:1px solid blue;**/
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-left:70px;
+    margin-bottom:30px;
+    border-radius:10px;
+    background:rgb(60, 3, 134);
+} 
+.mascara .sub .blue img{
+    margin-left:10px;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+.mascara .sub .blue .content{
+  position:relative;
+  margin-top:3px;
+  width:229px;
+  height:100%;
+  border-top-right-radius:60px;
+  border:none;
+  display:flex;
+  flex-direction:column;
+  margin-left:0px; 
+  background:rgb(170, 117, 219);
+}
+.mascara .sub .blue .content h1{
+   font-size:16px;
+   font-weight:800;
+   font-family:'poppins',sans-serif;
+   color:rgb(255, 255, 255);
+   text-align:center;
+   text-transform:uppercase;
+   margin-top:10px;
+}
+.mascara .sub .blue .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 233, 237);
+    text-align:justify;
+    margin-left:10px;
+    margin-top:10px;
+    margin-right:10px;
+} 
+                 /**eye liner content styling**/
+.eyeliner{
+    position:relative;
+    margin-top:20px;
+    width:1300px;
+    height:600px;
+   /** border:1px solid red;**/
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+}
+.eyeliner .normal{
+    position:relative;
+    margin-top:32px;
+    margin-left:10px;
+    border:1px solid green;
+    width:700px;
+    height:540px;
+    display:flex;
+    flex-direction:column;
+} 
+.eyeliner .normal .up{
+    position:relative;
+    display:flex;
+    margin-top:26px;
+    margin-left:auto;
+   /** border:1px solid blue;**/
+    display:flex;
+    border-radius:35px;
+    width:580px;
+    height:250px;
+    margin-right:auto;
+    background:linear-gradient(25deg,rgb(140,221,11),rgb(64, 18, 107),rgb(140,221,11));
+}
+.eyeliner .normal .up .image{
+    position:relative;
+    width:200px;
+    height:230px;
+    display:flex;
+}
+.eyeliner .normal .up .image img:nth-child(1){
+    
+    margin-left:30px;
+    transform:rotateZ('30deg');
+}
+.eyeliner .normal .up .image img:nth-child(2){
+    
+   margin-top:10px;
+    transform:rotateZ('-10deg');
+}
+.eyeliner .normal .up .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-left:40px;
+    width:300px;
+    height:230px;
+}
+.eyeliner .normal .up .content h1{
+    font-size:18px;
+    font-weight:800;
+    font-family:'poppins',sans-serif;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    margin-top:15px;
+    text-transform:uppercase;
+}
+.eyeliner .normal .up .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    text-align:justify;
+    color:rgb(255, 255, 255);
+    margin-top:15px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.eyeliner .normal .up .content button{
+    display:inline-block;
+    font-size:16px;
+    font-weight:900;
+    font-family:'poppins',sans-serif;
+    color:rgb(246, 244, 247);
+  /** background:rgb(255, 122, 128);**/
+   background:rgb(31, 185, 65);
+    text-transform:capitalize;
+    border:none;
+    letter-spacing:0px;
+    margin-left:50px;
+    text-align:center;
+    margin-right:20px;
+    border-radius:10px;
+    margin-top:10px;
+    padding:5px 3px;
+    width:60px;
+}
+.eyeliner .normal .up .content .round{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-26px;
+    margin-left:100px;
+}
+.eyeliner .normal .up .content .round span{
+    position:relative;
+    width:13px;
+    height:13px;
+    border-radius:50%;
+}
+.eyeliner .normal .up .content .round span:nth-child(1){
+    background:rgb(253, 41, 76);
+}
+.eyeliner .normal .up .content .round span:nth-child(2){
+    background:rgb(253, 232, 41);
+    margin-left:10px;
+}
+.eyeliner .normal .up .content .round span:nth-child(3){
+    background:rgb(252, 96, 6);
+    margin-left:10px;
+}
+.eyeliner .normal .up .content .round span:nth-child(4){
+    background:rgb(4, 185, 28);
+    margin-left:10px;
+}
+.eyeliner .normal .up .content .round span:nth-child(5){
+    background:rgb(44, 3, 192);
+    margin-left:10px;
+}
+.eyeliner .normal .down{
+    position:relative;
+    display:flex;
+    margin-top:15px;
+    margin-left:1px;
+   /** border:1px solid blue;**/
+    display:flex;
+    width:660px;
+    height:280px;
+}
+.eyeliner .normal .down .one{
+    position:relative;
+    width:155px;
+    height:210px;
+    margin-left:30px;
+    margin-top:17px;
+   /** border:1px solid pink;**/
+    display:flex;
+    flex-direction:column;
+    background:rgb(253, 55, 121);
+    border-radius:15px;
+}
+.eyeliner .normal .down .one img{
+    margin-top:10px;
+    margin-left:18px;
+}
+.eyeliner .normal .down .one h1{
+    font-size:14px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:10px;
+}
+.eyeliner .normal .down .one p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:capitalize;
+    text-align:center;
+    margin-top:5px;
+}
+.eyeliner .normal .down .two{
+    position:relative;
+    width:155px;
+    height:210px;
+    margin-left:20px;
+    margin-top:17px;
+   /** border:1px solid pink;**/
+   background:rgb(224, 224, 3);
+    display:flex;
+    flex-direction:column;
+    border-radius:15px;
+}
+.eyeliner .normal .down .two img{
+    margin-top:5px;
+    margin-left:25px;
+}
+.eyeliner .normal .down .two h1{
+    font-size:14px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:16px;
+}
+.eyeliner .normal .down .two p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:capitalize;
+    text-align:center;
+    margin-top:5px;
+}
+.eyeliner .normal .down .three{
+    position:relative;
+    width:155px;
+    height:210px;
+    margin-left:20px;
+    margin-top:17px;
+   /** border:1px solid pink;**/
+   background:rgb(255, 124, 2);
+    display:flex;
+    flex-direction:column;
+    border-radius:15px;
+}
+.eyeliner .normal .down .three img{
+    margin-top:5px;
+    margin-left:25px;
+}
+.eyeliner .normal .down .three h1{
+    font-size:14px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:14px;
+}
+.eyeliner .normal .down .three p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:capitalize;
+    text-align:center;
+    margin-top:5px;
+}
+.eyeliner .normal .down .four{
+    position:relative;
+    width:155px;
+    height:210px;
+    margin-left:20px;
+    margin-top:17px;
+   /** border:1px solid pink;**/
+   background:rgb(28, 28, 250);
+    display:flex;
+    flex-direction:column;
+    border-radius:15px;
+}
+.eyeliner .normal .down .four img{
+    margin-top:5px;
+    margin-left:18px;
+}
+.eyeliner .normal .down .four h1{
+    font-size:14px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:7px;
+}
+.eyeliner .normal .down .four p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:capitalize;
+    text-align:center;
+    margin-top:5px;
+}
+.eyeliner .glitters{
+    position:relative;
+    margin-top:50px;
+    margin-left:50px;
+    width:510px;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+   /** border:1px solid brown;**/
+}
+.eyeliner .glitters .red1{
+    margin-top:40px;
+    margin-left:40px;
+    width:200px;
+    height:230px;
+   /** border:1px solid green;**/
+    display:flex;
+    flex-direction:column;
+    background:red;
+    border-radius:25px;
+}
+.eyeliner .glitters .red1 img{
+    margin-left:75px;
+    transform:translateY(-32px);
+}
+.eyeliner .glitters .red1 h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    margin-top:-20px;
+    text-align:center;
+}
+.eyeliner .glitters .red1 p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    margin-top:10px;
+    text-align:justify;
+    margin-left:15px;
+    margin-right:15px;
+}
+.eyeliner .glitters .red1 p b{
+    color:rgb(61, 255, 229);
+}
+.eyeliner .glitters .violet1{
+    margin-top:-30px;
+    margin-left:270px;
+    width:200px;
+    height:230px;
+   /** border:1px solid green;**/
+   background:rgb(201, 156, 9);
+    display:flex;
+    flex-direction:column;
+    border-radius:25px;
+}
+.eyeliner .glitters .violet1 img{
+    margin-left:70px;
+    transform:translateY(-30px);
+}
+.eyeliner .glitters .violet1 h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    margin-top:-20px;
+    text-align:center;
+}
+.eyeliner .glitters .violet1 p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 255, 255);
+    margin-top:10px;
+    text-align:justify;
+    margin-left:15px;
+    margin-right:15px;
+}
+.eyeliner .glitters .violet1 p b{
+    color:rgb(99, 65, 255);
+}
+                /**kajal content styling**/
+.kajal{
+    position:relative;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1130px;
+    height:300px;
+    /**border:1px solid red;**/
+    display:flex;
+} 
+.kajal .dark{
+    position:relative;
+    margin-left:30px;
+    width:350px;
+    height:140px;
+   /** border:1px solid blue;**/
+    border-top-right-radius:100px;
+    border-bottom-right-radius:100px;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    background: rgb(119, 51, 93);
+    display:flex;
+    margin-top:77px;
+}
+.kajal .dark::before{
+    position:absolute;
+    content:'';
+    top:-10px;
+    left:-20px;
+    width:37px;
+    height:37px;
+    border-radius:50%;
+    border:none;
+    background:rgb(253, 187, 207);
+}
+.kajal .dark::after{
+    position:absolute;
+    content:'';
+    bottom:-20px;
+    right:29px;
+    width:49px;
+    height:49px;
+    border-radius:50%;
+    border:none;
+    background:rgb(253, 187, 207);
+}
+.kajal .dark .image{
+    position:relative;
+    width:50px;
+    height:100px;
+    margin-left:5px;
+}
+.kajal .dark .image img{
+   margin-left:-50px;
+   transform:translateY(-35px);
+}
+.kajal .dark .content{
+    position:relative;
+    margin-left:20px;
+    margin-right:15px;
+   /** border:1px solid red;**/
+    margin-top:10px;
+    width:280px;
+    height:120px;
+}
+.kajal .dark .content h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:1px;
+    color:white;
+}
+.kajal .dark .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    text-align:justify;
+    margin-top:8px;
+    margin-left:10px;
+    margin-right:7px;
+    color:white;
+}
+.kajal .center{
+    position:relative;
+    margin-left:40px;
+    width:290px;
+    height:250px;
+   /** border:1px solid rgb(1, 100, 31);**/
+    display:flex;
+    margin-top:20px;
+}
+.kajal .green-kaj{
+    position:relative;
+    margin-left:40px;
+    width:350px;
+    height:137px;
+    /**border:1px solid blue;**/
+    display:flex;
+    background:rgb(53, 112, 107);
+    margin-top:75px;
+    border-top-left-radius:100px;
+    border-top-right-radius:12px;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:12px;
+}
+.kajal .green-kaj::before{
+    position:absolute;
+    content:'';
+    border:none;
+    width:47px;
+    height:47px;
+    border-radius:50%;
+    background:rgb(181, 240, 181);
+    top:-10px;
+    left:10px;
+}
+.kajal .green-kaj::after{
+    position:absolute;
+    content:'';
+    border:none;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:rgb(181, 240, 181);
+    bottom:-11px;
+    right:-12px;
+}
+.kajal .green-kaj .image{
+    position:relative;
+    width:50px;
+    height:100px;
+    margin-left:20px;
+}
+.kajal .green-kaj .image img{
+   margin-left:-40px;
+   transform:translateY(-42px);
+}
+.kajal .green-kaj .content{
+    position:relative;
+    margin-left:15px;
+    margin-right:0px;
+   /** border:1px solid red;**/
+    margin-top:10px;
+    width:270px;
+    height:137px;
+}
+.kajal .green-kaj .content h1{
+    font-size:16px;
+    font-weight:700;
+    font-family:'poppins',sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:1px;
+    color:white;
+}
+.kajal .green-kaj .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    text-align:justify;
+    margin-top:8px;
+    margin-left:10px;
+    margin-right:7px;
+    color:white;
+}
+             /**eye palette content styling**/
+.palette{
+    position:relative;
+    margin-top:130px;
+    width:100%;
+    height:400px;
+    margin-bottom:0px;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+}
+.palette .img{
+    position:relative;
+    width:100%;
+    height:100%;
+    border-top-left-radius:100px; 
+    border-top-right-radius:100px;  
+}
+.palette .img img{
+    border-top-left-radius:80px; 
+    border-top-right-radius:80px;  
+}
+.palette .img .images{
+    display:flex;
+    position:relative;
+    width:100%;
+    height:400px;
+    transform:translateY(-400px);
+   /** border:1px solid red;**/
+}
+.palette .img .images .img1{
+    position:relative;
+    margin-left:80px;
+    width:280px;
+    height:300px;
+   /** border:1px solid red;
+    transform:translateY(-230px);**/
+}
+.palette .img .images .img1 h1{
+    font-size:20px;
+    font-weight:900;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 139, 44);
+    z-index:20000;
+    text-transform:uppercase;
+    margin-top:-60px;
+    margin-left:58px;
+}
+.palette .img .images .img1 img{
+    transform:translateY(-90px);
+    border-top-left-radius:1px; 
+    border-top-right-radius:1px; 
+}
+.palette .img .images .img2{
+    position:relative;
+    margin-left:60px;
+    width:300px;
+    height:350px;
+   /** border:1px solid red;
+    transform:translateY(-230px);**/
+}
+.palette .img .images .img2 h1{
+    font-size:20px;
+    font-weight:900;
+    z-index:20000;
+    font-family:'poppins',sans-serif;
+    color:rgb(255, 15, 55);
+    margin-left:140px;
+    width:200px;
+    margin-top:40px;
+    /**border:1px solid blue;**/
+    text-transform:uppercase;
+}
+.palette .img .images .img2 img{
+    transform:translateY(70px);
+    margin-left:75px;
+    border-top-left-radius:1px; 
+    border-top-right-radius:1px; 
+}
+.palette .img .images .img3{
+    position:relative;
+    margin-left:60px;
+    width:280px;
+    height:300px;
+   /** border:1px solid red;
+    transform:translateY(-230px);**/
+}
+.palette .img .images .img3 img{
+    transform:translateY(35px);
+    margin-left:145px;
+    border-top-left-radius:1px; 
+    border-top-right-radius:1px; 
+}
+
+

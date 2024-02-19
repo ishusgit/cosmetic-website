@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,600;8..144,700&family=Roboto+Slab:wght@400;500;800&family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,600;8..144,700&family=Roboto+Slab:wght@400;500;800&family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    min-height:200vh;
+}
+section{
+    position:relative;
+    background:linear-gradient(45deg,rgb(2, 105, 28),rgb(4, 185, 230),rgb(139, 14, 83),rgb(253, 126, 21));
+    width:100%;
+    height:570px;
+    display:flex;
+    flex-direction:column;
+}
+section .nav-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   /** background:linear-gradient(to right,rgb(34, 234, 248),rgb(167, 32, 245),rgb(247, 4, 145));**/
+}
+section .nav-links ul{
+    display:flex;
+    margin-top:18px;
+    z-index:10000;
+}
+section .nav-links ul li{
+    list-style:none;
+    padding:0 18px;
+    margin-bottom:10px;
+}
+section .nav-links ul li a{
+    color:rgb(255, 255, 255);
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    text-decoration:none;
+    display:block;
+    text-transform:uppercase;
+    letter-spacing:0.8px;
+    font-weight:bold;
+    transition:.5s ease-in-out;
+    font-weight:800;
+}
+section .nav-links ul li a:hover{
+    color:rgb(255, 7, 160);
+    border-bottom:2px solid rgb(250, 246, 21);
+    transition-delay:.10s;
+}
+section .center{
+    position:relative;
+    margin-top:10px;
+    width:100%;
+    height:500px;
+    display:flex;
+   /** border:1px solid red;**/
+}
+section .center .first{
+    position:relative;
+   /** border:1px solid blue;**/
+    width:530px;
+    height:490px;
+    margin-top:10px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+}
+section .center .first h1{
+    font-size:34px;
+    font-weight:900;
+    font-family:'Roboto',serif;
+    letter-spacing:2.5px;
+    color:white;
+    text-transform:capitalize;
+    text-align:center;
+    margin-top:90px;
+}
+section .center .first p{
+    font-size:16px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:justify;
+    margin-top:20px;
+    margin-left:50px;
+    margin-right:50px;
+}
+section .center .first .images{
+    display:flex;
+    width:600px;
+    height:200px;
+}
+section .center .middle{
+    position:relative;
+   /** border:1px solid blue;**/
+    width:295px;
+    height:500px;
+    margin-top:0px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+section .center .third{
+    position:relative;
+   /** border:1px solid blue;**/
+    width:500px;
+    height:490px;
+    margin-top:10px;
+    margin-right:20px;
+    margin-left:20px;
+    display:flex;
+    flex-direction:column;
+}
+section .center .third h1{
+    font-size:35px;
+    font-weight:900;
+    font-family:'roboto',sans-serif;
+    letter-spacing:2.1px;
+    color:white;
+    text-transform:capitalize;
+    text-align:center;
+    margin-top:80px;
+}
+section .center .third p{
+    font-size:16px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:justify;
+    margin-top:30px;
+    margin-left:40px;
+    margin-right:40px;
+}
+section .center .third .images{
+    display:flex;
+    width:600px;
+    height:200px;
+    margin-top:40px;
+}
+                  /**nailcare content styling**/
+.nailcare{
+    position:relative;
+    margin-top:150px;
+    margin-left:auto;
+    margin-right:auto;
+    width:880px;
+    height:570px;
+    border:1px solid red;
+    display:flex;
+    flex-direction:column;
+   /** background:linear-gradient(90deg,rgb(100, 3, 79),rgb(194, 44, 253));**/
+  /** background:rgb(191, 125, 253);**/
+}
+.nailcare .main{
+    position:relative;
+    width:240px;
+    height:180px;
+    transform:translateX(290px);
+    margin-top:-105px;
+    border-radius:50%;
+    border:6px solid rgb(107, 4, 107);
+}
+.nailcare .manicure{
+    position:relative;
+    margin-top:5px;
+    display:flex;
+    margin-left:40px;
+    width:800px;
+    height:242px;
+   /** border:1px solid red;**/
+}
+.nailcare .manicure .content{
+    position:relative;
+    width:780px;
+    height:160px;
+    margin-top:40px;
+    display:flex;
+    margin-left:20px;
+    display:flex;
+    flex-direction:column;
+   /** border:1px solid rgb(69, 4, 122);**/
+    background:linear-gradient(rgb(247, 28, 57),rgb(2, 36, 68));
+    border-radius:10px;
+}
+.nailcare .manicure .content h1{
+    font-size:22px;
+    font-weight:900;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top:15px;
+}
+.nailcare .manicure .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:justify;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+}
+.nailcare .manicure img{
+    margin-left:50px;
+}
+.nailcare .pedicure{
+    position:relative;
+    margin-top:5px;
+    margin-left:10px;
+   /** border:1px solid green;**/
+    display:flex;
+    width:800px;
+    height:228px;
+    margin-left:40px;
+}
+.nailcare .pedicure .content{
+    position:relative;
+    width:500px;
+    height:160px;
+   /** border:1px solid green;**/
+    margin-top:40px;
+    border-radius:10px;
+    margin-left:80px;
+    background:linear-gradient(rgb(250, 65, 167),rgb(122, 19, 122));
+}
+.nailcare .pedicure .content h1{
+    font-size:22px;
+    font-weight:900;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top:15px;
+}
+.nailcare .pedicure .content p{
+    font-size:14px;
+    font-weight:500;
+    font-family:'poppins',sans-serif;
+    color:white;
+    text-align:justify;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+               /**nailpolish content styling**/
+.nailpolish{
+    position:relative;
+    margin-top:30px;
+    border:1px solid red;
+    width:1100px;
+    height:450px;
+    background:pink;
+    margin-left:200px;
+    margin-right:auto;
+    display:flex;
+}  
+.nailpolish .main{
+    position:relative;
+    width:230px;
+    height:230px;
+   /** border:1px solid green;**/
+    border-radius:50%;
+    background:rgb(28, 8, 36);
+    margin-left:-110px;
+    margin-top:100px;
+}
+.nailpolish .sub{
+    position:relative;
+    width:800px;
+    height:410px;
+   /** border:1px solid blue;**/
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:80px;
+    margin-top:20px;
+    margin-bottom:20px;
+} 
+.nailpolish .sub .card1{
+    position:relative;
+    width:200px;
+    height:220px;
+    border:1px solid orange;
+    display:flex;
+    flex-direction:column;
+    margin-top:0px;
+    margin-left:50px;
+} 
+.nailpolish .sub .card1 h1{
+   font-size:16px;
+   font-weight:900;
+   color:white;
+   margin-top:12px;
+   text-align:center;
+   font-family:'poppins',sans-serif;
+} 
+.nailpolish .sub .card1 .round{
+    width:160px;
+    height:30px;
+    margin-left:30px;
+    margin-right:30px;
+   /** border:1px solid red;**/
+    position:relative;
+    margin-top:10px;
+    display:flex;
+}
+.nailpolish .sub .card1 .round span:nth-child(1){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(235, 70, 97);
+    margin-left:15px;
+}
+.nailpolish .sub .card1 .round span:nth-child(2){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(105, 18, 32);
+    margin-left:10px;
+}
+.nailpolish .sub .card1 .round span:nth-child(3){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(243, 9, 48);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card1 .round span:nth-child(4){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(20, 1, 4);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card1 .round span:nth-child(5){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(138, 1, 24);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card2{
+    position:relative;
+    width:200px;
+    height:220px;
+    border:1px solid orange;
+    display:flex;
+    flex-direction:column;
+    margin-top:0px;
+    margin-left:50px;
+}
+  .nailpolish .sub .card2 h1{
+    font-size:16px;
+    font-weight:900;
+    color:white;
+    margin-top:15px;
+    text-align:center;
+    font-family:'poopins',sans-serif;
+ } 
+ .nailpolish .sub .card2 .round{
+    width:160px;
+    height:30px;
+    margin-left:30px;
+    margin-right:30px;
+   /** border:1px solid red;**/
+    position:relative;
+    margin-top:10px;
+    display:flex;
+}
+.nailpolish .sub .card2 .round span:nth-child(1){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(235, 70, 97);
+    margin-left:15px;
+}
+.nailpolish .sub .card2 .round span:nth-child(2){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(105, 18, 32);
+    margin-left:10px;
+}
+.nailpolish .sub .card2 .round span:nth-child(3){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(243, 9, 48);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card2 .round span:nth-child(4){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(20, 1, 4);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card2 .round span:nth-child(5){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(138, 1, 24);
+    margin-left:10px;
+    z-index:10000;
+}  
+.nailpolish .sub .card3{
+    position:relative;
+    width:200px;
+    height:220px;
+    border:1px solid orange;
+    display:flex;
+    flex-direction:column;
+    margin-top:0px;
+    margin-left:50px;
+} 
+.nailpolish .sub .card3 h1{
+    font-size:16px;
+    font-weight:900;
+    color:white;
+    margin-top:15px;
+    text-align:center;
+    font-family:'poppins',sans-serif;
+ } 
+ .nailpolish .sub .card3 .round{
+    width:160px;
+    height:30px;
+    margin-left:30px;
+    margin-right:30px;
+   /** border:1px solid red;**/
+    position:relative;
+    margin-top:10px;
+    display:flex;
+}
+.nailpolish .sub .card3 .round span:nth-child(1){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(235, 70, 97);
+    margin-left:15px;
+}
+.nailpolish .sub .card3 .round span:nth-child(2){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(105, 18, 32);
+    margin-left:10px;
+}
+.nailpolish .sub .card3 .round span:nth-child(3){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(243, 9, 48);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card3 .round span:nth-child(4){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(20, 1, 4);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card3 .round span:nth-child(5){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(138, 1, 24);
+    margin-left:10px;
+    z-index:10000;
+} 
+.nailpolish .sub .card4{
+    position:relative;
+    width:400px;
+    height:140px;
+    border:1px solid orange;
+    display:flex;
+    flex-direction:row;
+    margin-top:30px;
+    margin-left:190px;
+} 
+.nailpolish .sub .card4 .content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    margin-left:10px;
+   /** border:1px solid red;**/
+}
+.nailpolish .sub .card4 h1{
+    font-size:18px;
+    font-weight:900;
+    color:white;
+    margin-top:20px;
+    text-align:center;
+    margin-left:10px;
+    font-family:'poppins',sans-serif;
+ }   
+ .nailpolish .sub .card4 .round{
+    width:160px;
+    height:30px;
+    margin-left:50px;
+    margin-right:30px;
+   /** border:1px solid red;**/
+    position:relative;
+    margin-top:15px;
+    display:flex;
+}
+.nailpolish .sub .card4 .round span:nth-child(1){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(235, 70, 97);
+    margin-left:15px;
+}
+.nailpolish .sub .card4 .round span:nth-child(2){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(105, 18, 32);
+    margin-left:10px;
+}
+.nailpolish .sub .card4 .round span:nth-child(3){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(243, 9, 48);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card4 .round span:nth-child(4){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(20, 1, 4);
+    margin-left:10px;
+    z-index:10000;
+}
+.nailpolish .sub .card4 .round span:nth-child(5){
+    position:relative;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background:rgb(138, 1, 24);
+    margin-left:10px;
+    z-index:10000;
+}
